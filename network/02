@@ -1,5 +1,5 @@
 #(a) Identify broadcast address
- ip -4 addr show eth0 | grep -oP '(?<=brd\s)\d+(\.\d+){3}'
+ip -4 addr show eth0 | grep -oP '(?<=brd\s)\d+(\.\d+){3}'
 
- #(b) Identify all IP adresses which are part of the same subnet
- arp -a
+#(b) Identify all IP adresses which are part of the same subnet
+arp -a

@@ -1,0 +1,1 @@
+ip route show | gawk 'NR==1'
