@@ -1,0 +1,2 @@
+The Debian version you're working on can be found in the \"/etc/debian_version\" file.
+# to check run - cat /etc/debian_version
