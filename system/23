@@ -1,0 +1,10 @@
+#it's tricky for wsl, we need to find the ip first,
+in powershel run \"wsl hostname -I\" to get wsl independent ip.
+
+#then you can enter the command:
+ssh username@ip
+
+#the host machine name won't work, only ip
+
+#for a graphical session, only when already in vm through ssh, you need to run:
+startx
