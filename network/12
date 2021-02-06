@@ -1,0 +1,1 @@
+ip r | gawk 'NR==2 {print $9}'
