@@ -1,10 +1,10 @@
-#it's tricky for wsl, we need to find the ip first,
-in powershel run \"wsl hostname -I\" to get wsl independent ip.
+# it's tricky for wsl, we need to find the ip first,
+in powershell run \"wsl hostname -I\" to get wsl independent ip.
 
-#then you can enter the command:
-ssh username@ip
+# then you can enter the command:
+ssh username@ip - alternatively you'd use: ssh username@hostname
 
-#the host machine name won't work, only ip
+# the host machine name won't work, only ip
 
-#for a graphical session, only when already in vm through ssh, you need to run:
+# for a graphical session, only when already in vm through ssh (Debian-specific), you need to run:
 startx
