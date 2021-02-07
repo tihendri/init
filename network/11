@@ -1,2 +1,6 @@
-#NAT server, IP of NAT server
-herotel-gw-cpt.liquidtelecom.net (77.246.58.124)
+## NAT server - The NAT server will translate your Local IP address into a Global IP address and vice versa in order to provide Internet access to the local hosts.
+## When running traceroute the first (sometimes second and third) IP address/s will be your Local IP's, depending on your local network,
+## then after those IP's will be the translated Global IP/s from the NAT server will display,
+## which is used to connect your local machine to the internet.
+
+10.64.0.16
